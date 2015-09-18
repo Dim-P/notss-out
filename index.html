@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="row">
+<!-- This loops through the paginated posts -->
+  {% for post in paginator.posts %}
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+      <p>
+        <span>{{ post.date }}</span>
+      </p>
+      <div>
+        <img class="main-post-image" src="/images/{{post.image}}" alt="Post Image">
+      </div>
+      <div>
+        {{ post.excerpt }}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<!-- Pagination links -->
+<div class="row">
+  <ul class="pager">
+    {% if paginator.previous_page %}
+      <li><a href="{{ paginator.previous_page_path }}">Previous</a></li>
+    {% endif %}
+    <span class="pagination">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+      <li><a href="{{ paginator.next_page_path }}">Next</a></li>
+    {% endif %}
+  </ul>
+</div>

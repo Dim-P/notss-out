@@ -1,0 +1,35 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+//Navigation bar icons style
+.nav-icons{
+	width: 16px;
+	height: 16px;
+	vertical-align: top;
+	margin-right: 2px;
+}
+
+//Navigation bar Affix necessary according to bootstrap
+.affix {
+    top: 0;
+    width: 100%;
+    z-index:9999;
+}
+
+.affix + .container-fluid {
+    padding-top: 50px;
+}
+
+//Main post images
+.main-post-image{
+	margin-bottom: 10px;
+	height: 100px;
+	@extend .img-responsive;
+}
+
+// @import --> used to import sass code from _sass folder. my-variables overide bootstrap variables
+
+@import "my-variables";
+@import "bootstrap";

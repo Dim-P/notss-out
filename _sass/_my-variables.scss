@@ -1,0 +1,12 @@
+// Add bootstrap variables here and overide the default ones. Import the ones not ovverided from "bootstrap/_variables.scss" files
+
+// Navigation bar
+//$navbar-default-bg: #111;
+
+$border-radius-base: 0px;
+$body-bg: #333;
+$panel-bg: $body-bg;
+$text-color: #ddd;
+$brand-primary: $text-color;
+
+@import "bootstrap/variables";
