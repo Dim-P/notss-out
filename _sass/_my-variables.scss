@@ -4,9 +4,9 @@
 //$navbar-default-bg: #111;
 
 $border-radius-base: 0px;
-$body-bg: #333;
+$body-bg: #f1f1f1;
 $panel-bg: $body-bg;
-$text-color: #ddd;
+$text-color: rgba(0, 0, 0, 0.7);
 $brand-primary: $text-color;
 
 @import "bootstrap/variables";

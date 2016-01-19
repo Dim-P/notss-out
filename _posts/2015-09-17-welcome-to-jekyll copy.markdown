@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Jimmy's Bar"
 date:   2015-09-17 16:19:48
 image: Nottingham-main-cropped.jpeg
 categories: jekyll update night

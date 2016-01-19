@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Christos the Greek"
 date:   2015-09-19 16:19:48
+image: bar_1.jpg
 categories: night
 ---
 <blockquote>
