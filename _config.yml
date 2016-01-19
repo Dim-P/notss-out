@@ -3,7 +3,7 @@ title: Baltimore Out
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   All the events of Baltimore in a single website, just for you!
-baseurl: "/baltimore-out" # the subpath of your site, e.g. /blog/
+baseurl: "/notss-out" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
